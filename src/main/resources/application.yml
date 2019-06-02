@@ -1,0 +1,14 @@
+
+server:
+  port: 8888
+  servlet-path: /springboot
+
+#³£Á¿ÇøÓò
+name: name-hello
+hello: hello-world
+
+content: "name: ${name},hello: ${hello}"
+
+student:
+  name: lisi
+  age: 20
