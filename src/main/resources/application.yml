@@ -1,14 +1,5 @@
 
-server:
-  port: 8888
-  servlet-path: /springboot
-
-#常量区域
-name: name-hello
-hello: hello-world
-
-content: "name: ${name},hello: ${hello}"
-
-student:
-  name: lisi
-  age: 20
+#指定使用哪一个版本的yml文件
+spring:
+  profiles:
+    active: zn

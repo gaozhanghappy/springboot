@@ -1,0 +1,14 @@
+
+server:
+  port: 8888
+  servlet-path: /springboot
+
+#常量区域
+name: name-hello
+hello: hello-world
+
+content: "name: ${name},hello: ${hello}"
+
+student:
+  name: us
+  age: 20
