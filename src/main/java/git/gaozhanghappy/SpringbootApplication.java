@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootApplication {
 	@RequestMapping("/")
 	public String hello(){
-		return "hello";
+		return "测试的网站";
 	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);
 	}
